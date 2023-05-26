@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.center {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.header {
+    padding: 40px 30px 84px 30px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.top-logo {
+    height: 40px;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+    background: #F25822;
+    color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.clik:hover {
+    background: #fff;
+    color: #F25822;
+}
+
+.clik:active {
+    background: #F25822;
+    color: #fff;
+}
+
+.menu-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 34px;
+}
+
+
+.menu-link {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+
+    color: #000000;
+}
+
+.menu-link1 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.home {
+    color: #F25822;
+}
+
+.top-info {
+    /* padding: 84px 0 103px 0; */
+    gap: 38px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.top-content-img {
+    width: 611px;
+    height: 373;
+    /* padding: 84px 0 162px 0; */
+}
+
+.info-content {
+    position: relative;
+    top: 64px;
+}
+
+.info-content-titel {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 60px;
+    width: 522px;
+    height: 222px;
+}
+
+.info-content-txt {
+    margin: 17px 0 37px 0;
+    width: 466px;
+    height: 48px;
+    color: #888888;
+    font-family: Roboto;
+}
+
+.top-cotnent-btn-wrp {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+
+.start {
+    width: 140px;
+    height: 50px;
+    background: #F25822;
+    color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.top-content-btn1 {
+    width: 135px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    background: no-repeat;
+}
+
+.top-logo-list {
+    padding: 191px 0 91px 0;
+    display: flex;
+    list-style: none;
+    gap: 48px;
+
+
+}
